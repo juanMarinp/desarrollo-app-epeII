@@ -39,6 +39,7 @@ Esta aplicación permite a los usuarios llevar un registro diario de sus activid
 - **Apache Cordova**: Framework para crear aplicaciones móviles multiplataforma.
 - **HTML, CSS, JavaScript**: Base para la estructura, estilo y funcionalidad de la aplicación.
 - **Android SDK**: Para desarrollar y construir el proyecto en Android.
+- **Android Studio**: Entorno de desarrollo integrado (IDE) para construir y probar aplicaciones en Android.
 - **Gradle**: Herramienta de construcción de automatización.
 - **Git/GitHub**: Control de versiones y colaboración.
 
