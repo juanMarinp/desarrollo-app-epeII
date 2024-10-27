@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Actividades</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script>
+        function guardarRegistro() {
+            const actividadInput = document.getElementById('actividad');
+            const mensajeElement = document.getElementById('mensaje');
+
+            if (actividadInput.value.trim() === '') {
+                alert('El campo no puede quedar vacío');
+                return;
+            }
+
+            mensajeElement.innerText = 'Registro guardado';
+            actividadInput.value = '';
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <h1>Registro de Actividades</h1>
+
+    <label for="actividad">Ingresa tu actividad sostenible:</label>
+    <input type="text" id="actividad" placeholder="Ej. Reciclaje de plásticos" />
+    <button onclick="guardarRegistro()">Guardar</button>
+
+    <p id="mensaje" style="color: green;"></p>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Volver al Menú Principal</a></li>
+        </ul>
+    </nav>
+</div>
+</body>
+</html>
