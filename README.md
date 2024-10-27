@@ -27,6 +27,7 @@ Esta aplicación permite a los usuarios llevar un registro diario de sus activid
 
 - **Inicio de Sesión y Registro de Usuario:** Vistas para que los usuarios puedan registrarse e iniciar sesión de manera sencilla.
 - **Metas y Objetivos:** Sección donde los usuarios pueden establecer metas anuales, como reducir su huella de carbono, y objetivos semestrales, como registrar cinco actividades sostenibles.
+- **Consejos y sugerencias:** Sección que proporciona recomendaciones prácticas y útiles sobre sostenibilidad y reducción de huella de carbono.
 - **Calculadora de Huella de Carbono:** Herramienta para que los usuarios puedan introducir datos y recibir información sobre su impacto ambiental.
 - **Registro de Actividades:** Los usuarios pueden registrar actividades sostenibles y recibir reconocimientos.
 - **Recursos Educativos:** Sección que contiene enlaces a recursos sobre sostenibilidad y reducción de huella de carbono.
@@ -50,7 +51,7 @@ Esta aplicación permite a los usuarios llevar un registro diario de sus activid
    - Configuración de las variables de entorno `ANDROID_HOME`, `JAVA_HOME` y PATH.
    
 2. **Desarrollo de Funcionalidades**:
-   - Implementación de vistas HTML para `inicio de sesión`, `creación de usuario`, `metas`, `calculadora` y `recursos`.
+   - Implementación de vistas HTML para `inicio de sesión`, `creación de usuario`, `metas`, `Consejos y sugerencias`, `Registro de actividades`, `calculadora` y `recursos`.
    - Uso de Cordova para compilar y probar en emuladores y dispositivos Android.
 
 3. **Pruebas y Depuración**:
@@ -75,3 +76,16 @@ Para clonar e instalar el proyecto, sigue los pasos a continuación:
    ```bash
    git clone https://github.com/juanMarinP/desarrollo-app-epeII.git
    cd desarrollo-app-epeII
+   ```
+   
+2. **Instalar dependencias de Cordova**:
+ ```bash
+   npm install -g cordova
+   cordova prepare
+   ```
+
+3. **Construir y ejecutar**:
+ ```bash
+   cordova build android
+   cordova run android
+   ```
